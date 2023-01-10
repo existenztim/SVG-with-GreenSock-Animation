@@ -44,6 +44,8 @@ tl1.to('#letter_l3', {x: 20, fill: 'green',
 });
 tl1.to('#letter_d', {x: -25, fill: 'green',
 });
+
+// final touch
 tl1.to('.letter', { duration: 1, scaleX: (1.25), scaleY: (1.25), fill: 'yellow', yoyo: true,
 });
 tl1.to('.letter', { delay: 3, duration: 3, scaleX: (-1), rotation: '0_cw', opacity: 0, fill: 'white',
